@@ -828,7 +828,7 @@ msgstr "Facturas de proveedor y Tansacciones pendientes"
 #: model:ir.actions.act_window,name:l10n_ar_account_payment_order.account_payment_order_action_vendor
 #: model:ir.ui.menu,name:l10n_ar_account_payment_order.account_payment_order_menu_vendor
 msgid "Supplier Payments"
-msgstr "Pagos de Proveedores"
+msgstr "Pagos a Proveedores"
 
 #. module: l10n_ar_account_payment_order
 #: model:ir.model.fields,field_description:l10n_ar_account_payment_order.field_account_payment_order__tax_id

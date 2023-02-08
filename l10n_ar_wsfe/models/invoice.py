@@ -197,8 +197,9 @@ class AccountInvoice(models.Model):
 
     @api.multi
     def invoice_validate(self):
-        self.action_number()
-        self.action_aut_cae()
+        for rec in self:
+            rec.action_number()
+            rec.action_aut_cae()
         return super().invoice_validate()
 
     # Heredado para no cancelar si es una factura electronica
